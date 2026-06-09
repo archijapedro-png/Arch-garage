@@ -1,0 +1,66 @@
+====================================================
+  ARCH GARAGE — Site de Serviços
+  Guia rápido de publicação no GitHub Pages
+====================================================
+
+ARQUIVOS DESTA PASTA
+- index.html .... a página do site (abre no navegador)
+- og-image.jpg .. imagem que aparece ao compartilhar o link
+- LEIA-ME.txt ... este guia
+
+----------------------------------------------------
+PASSO A PASSO PARA PUBLICAR (grátis)
+----------------------------------------------------
+1. Crie uma conta em github.com (se ainda não tiver).
+2. Clique em "New repository", dê um nome (ex: arch-garage),
+   deixe marcado como "Public" e clique em "Create repository".
+3. Na página do repositório, clique em "Add file" > "Upload files".
+4. Arraste os arquivos index.html e og-image.jpg para a área de upload.
+   (NÃO coloque dentro de subpastas — eles ficam na raiz.)
+5. Clique em "Commit changes".
+6. Vá em "Settings" > "Pages".
+7. Em "Source", escolha "Deploy from a branch".
+   Selecione a branch "main" e a pasta "/ (root)". Clique em "Save".
+8. Aguarde cerca de 1 minuto. O site estará no ar em:
+   https://SEU-USUARIO.github.io/arch-garage/
+
+----------------------------------------------------
+AJUSTE FINAL — COMPARTILHAMENTO BONITO (Open Graph)
+----------------------------------------------------
+Depois que o site estiver no ar:
+1. No repositório, clique no arquivo index.html.
+2. Clique no ícone de lápis (Edit).
+3. Use Ctrl+F e procure por: SEU-SITE.com.br
+4. Troque TODAS as ocorrências por seu endereço real, ex:
+   https://SEU-USUARIO.github.io/arch-garage
+5. Clique em "Commit changes".
+Assim, ao mandar o link no WhatsApp/Instagram, aparece o logo,
+o título e a descrição.
+
+----------------------------------------------------
+GOOGLE ANALYTICS (opcional — para medir visitas/cliques)
+----------------------------------------------------
+1. Crie uma conta gratuita em analytics.google.com.
+2. Pegue seu ID de medição (formato G-XXXXXXXXXX).
+3. No index.html, troque G-XXXXXXXXXX pelo seu ID
+   (aparece em 3 lugares). Commit changes.
+
+----------------------------------------------------
+COMO ATUALIZAR VALORES E TEXTOS NO FUTURO
+----------------------------------------------------
+1. No repositório, abra o index.html.
+2. Clique no ícone de lápis (Edit).
+3. Use Ctrl+F para achar o que quer mudar (ex: "R$ 90").
+4. Edite e clique em "Commit changes".
+O site atualiza sozinho em ~1 minuto, no mesmo endereço.
+(O bloco gigante de código no meio do arquivo é o logo/ícone —
+pode ignorar, mexa só nos textos e preços.)
+
+----------------------------------------------------
+DICAS
+----------------------------------------------------
+- Telefone/WhatsApp configurado: (11) 99553-5053
+- Atendimento: sábados, domingos e feriados
+- Domínio próprio (ex: archgarage.com.br): compre no registro.br
+  (~R$40/ano) e conecte em Settings > Pages > Custom domain.
+====================================================
