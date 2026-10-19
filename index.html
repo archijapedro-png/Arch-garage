@@ -198,6 +198,16 @@ header.solid .nav{height:62px;}
 .badge{position:absolute;top:22px;right:22px;background:var(--white);color:var(--navy);font-weight:700;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;padding:5px 12px;border-radius:999px;}
 .card.featured{background:linear-gradient(140deg,#0f3866 0%,var(--navy-up) 70%);border-color:rgba(155,193,236,.4);}
 
+/* ---------- MARCAS DE PRODUTOS ---------- */
+.brands{background:var(--navy-deep);border-top:1px solid var(--rule);padding:44px 0 48px;text-align:center;}
+.brands-t{color:var(--steel);font-size:.82rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;margin-bottom:22px;}
+.brand-list{list-style:none;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:14px 0;}
+.brand-list li{
+  font-size:clamp(1.2rem,2vw,1.5rem);font-weight:800;font-variation-settings:"wdth" 115;letter-spacing:.02em;
+  color:#dfe8f2;padding:0 24px;
+}
+.brand-list li + li{border-left:1px solid var(--rule);}
+
 /* ---------- PACOTES ---------- */
 .packages{background:var(--ice);color:var(--ink);padding:96px 0 104px;scroll-margin-top:62px;}
 .packages h2{font-size:clamp(2.2rem,4.6vw,3.6rem);margin-bottom:12px;}
@@ -431,6 +441,9 @@ footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:2
   .pkgs{grid-template-columns:1fr;max-width:480px;gap:16px;}
   .pkg.top{order:-1;}
   .faq{padding:72px 0 24px;}
+  .brands{padding:36px 0 40px;}
+  .brand-list li{padding:0 16px;}
+  .brand-list li + li{border-left:none;}
   .faq summary{font-size:1.02rem;padding:18px 0;}
   .faq details p{padding-right:0;}
   .cta{padding:88px 0 120px;}
@@ -554,6 +567,21 @@ footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:2
           <a class="wpp" data-service="Atendimento a domicílio" href="#">Agendar a domicílio</a>
         </div>
       </li>
+    </ul>
+  </div>
+</section>
+
+<section class="brands" aria-labelledby="marcas-t">
+  <div class="wrap">
+    <p class="brands-t" id="marcas-t">Trabalhamos com produtos profissionais das marcas</p>
+    <!-- Para adicionar uma marca: copie um <li> -->
+    <ul class="brand-list">
+      <li>Vonixx</li>
+      <li>Cadillac</li>
+      <li>Dub Boyz</li>
+      <li>Protelim</li>
+      <li>Expert</li>
+      <li>Nobrecar</li>
     </ul>
   </div>
 </section>
@@ -781,6 +809,10 @@ footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:2
       <details>
         <summary>Qual a diferença entre leva e traz e atendimento a domicílio?</summary>
         <p>No leva e traz, buscamos o carro e devolvemos pronto. No atendimento a domicílio, vamos até a sua casa ou trabalho e fazemos o serviço lá mesmo.</p>
+      </details>
+      <details>
+        <summary>Quais produtos vocês usam?</summary>
+        <p>Trabalhamos com produtos profissionais das marcas Vonixx, Cadillac, Dub Boyz, Protelim, Expert e Nobrecar.</p>
       </details>
       <details>
         <summary>A restauração de faróis tem garantia?</summary>
